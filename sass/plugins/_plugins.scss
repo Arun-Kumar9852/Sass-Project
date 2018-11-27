@@ -1,0 +1,6 @@
+.box3{
+    @extend %box;
+    @include boxes(2px 5px 5px #000, orange yellow);
+    @include fon(open sans);
+    border-radius: 10px;
+}

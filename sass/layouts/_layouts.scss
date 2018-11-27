@@ -1,0 +1,21 @@
+%box{
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    display: inline-block;
+}
+
+.box2{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    @extend %box;
+    @include boxes(2px 5px 5px #000, orange yellow);
+    @include fon(open sans);
+
+}
+
+
+

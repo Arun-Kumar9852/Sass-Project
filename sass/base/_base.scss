@@ -1,0 +1,10 @@
+@mixin boxes($shadow, $grad){
+    box-shadow: $shadow;
+    background: linear-gradient($grad);
+    @content;
+}
+@mixin fon($a){
+    font-family: $a;
+    @content;
+}
+

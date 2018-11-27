@@ -1,0 +1,30 @@
+.box3, .box2 {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  display: inline-block;
+}
+
+.box2 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px #000;
+  background: linear-gradient(orange yellow);
+  font-family: open sans;
+}
+
+.box3 {
+  box-shadow: 2px 5px 5px #000;
+  background: linear-gradient(orange yellow);
+  font-family: open sans;
+  border-radius: 10px;
+}
+
+body {
+  background: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
